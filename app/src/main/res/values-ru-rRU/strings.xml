@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wildberries</string>
+    <string name="departure_city">Город вылета:</string>
+    <string name="description_post_author_avatar" translatable="false">Post author avatar</string>
+    <string name="description_post_menu" translatable="false">Post menu</string>
+    <string name="description_post_like" translatable="false">Like</string>
+    <string name="description_post_share" translatable="false">Share</string>
+    <string name="description_post_save" translatable="false">Save</string>
+    <string name="menu_remove" translatable="false">Remove</string>
+    <string name="post_text" translatable="false">Post Text</string>
+    <string name="menu_edit" translatable="false">Edit</string>
+    <string name="error_empty_content" translatable="false">Content can\'t be empty</string>
+    <string name="chooser_share_post" translatable="false">Share post</string>
+    <string name="add_post" translatable="false">Add post</string>
+    <string name="retry_loading" translatable="false">Retry</string>
+    <string name="empty_posts" translatable="false">There are no posts.</string>
+    <string name="error_loading" translatable="false">If you create a new post, it will appear here</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="google_play_unavailable" translatable="false">Google Api Unavailable</string>
+    <string name="notification_user_liked" translatable="false">User %1$s liked %2$s\'s post</string>
+    <string name="channel_remote_name" translatable="false">Server notifications</string>
+    <string name="arivial_city">Город прибытия:</string>
+    <string name="departure_date">Дата вылета:</string>
+    <string name="arivial_date">Дата прибытия:</string>
+    <string name="price">Цена в рублях:</string>
+</resources>
