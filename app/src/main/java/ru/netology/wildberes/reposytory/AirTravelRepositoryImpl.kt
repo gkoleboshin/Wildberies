@@ -21,7 +21,7 @@ class AirTravelRepositoryImpl : AirTravelRepository {
         .connectTimeout(60, TimeUnit.SECONDS)
         .build()
     private val gson = Gson()
-    private val typeToken = object : TypeToken<CheapModel>>() {}
+    private val typeToken = object : TypeToken<CheapModel>() {}
 
     companion object {
         private const val BASE_URL = "https://travel.wildberries.ru/statistics/v1/cheap"
@@ -37,9 +37,9 @@ class AirTravelRepositoryImpl : AirTravelRepository {
         return client.newCall(request)
             .execute()
             .use {
-                it.body? ?: throw RuntimeException("body is null") }
+                it.body?.string() ?: throw RuntimeException("body is null") }
             .let {
-                gson.fromJson(it.get()}, typeToken.type)
+                gson.fromJson(it, typeToken.type)
             }
     }
 
